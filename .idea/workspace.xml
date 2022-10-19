@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1486b6f5-67ab-47cc-bd48-5b6ed47e002f" name="Changes" comment="" />
+    <list default="true" id="1486b6f5-67ab-47cc-bd48-5b6ed47e002f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/flux_file_example.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/flux_file_many_lines.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_F275W_UVIS_CHIP2_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_F336W_UVIS_CHIP2_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_F438W_UVIS_CHIP2_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_F555W_UVIS_CHIP2_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_F814W_UVIS_CHIP2_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_SFH.fits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_attenuation.E_BV_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_best_model.fits" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.miri.F1000W_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.miri.F1130W_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.miri.F2100W_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.miri.F770W_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.nircam.F200W_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.nircam.F300M_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.nircam.F335M_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.nircam.F360M_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_sfh.age_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/emb_clu_stellar.metallicity_chi2-block-0.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/observations.fits" beforeDir="false" afterPath="$PROJECT_DIR$/out/observations.fits" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/observations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/observations.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/pcigale.ini" beforeDir="false" afterPath="$PROJECT_DIR$/out/pcigale.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/results.fits" beforeDir="false" afterPath="$PROJECT_DIR$/out/results.fits" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pcigale.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pcigale.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plot_output/sed_total.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plot_output/sed_total.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plot_sed_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualization_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualization_helper.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,12 +54,54 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/benutzer/Documents/projects/manuscript",
+    "last_opened_file_path": "/home/benutzer/Documents/projects/jwst_embed_cluster",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="plot_sed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.plot_individual_sed (1)">
+    <configuration name="plot_individual_sed (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="phangs_visual_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cigale_young_cluster_fit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cigale_young_cluster_fit/plot_individual_sed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_individual_sed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="phangs_visual_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cigale_partially_cluster_fit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cigale_partially_cluster_fit/plot_individual_sed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_silicat_abs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="phangs_visual_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -39,7 +113,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_sed.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_silicat_abs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare_cigale_fit (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="phangs_visual_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cigale_young_cluster_fit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cigale_young_cluster_fit/prepare_cigale_fit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare_cigale_fit (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="phangs_visual_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cigale_partially_cluster_fit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cigale_partially_cluster_fit/prepare_cigale_fit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -50,7 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.plot_sed" />
+        <item itemvalue="Python.plot_individual_sed (1)" />
+        <item itemvalue="Python.plot_silicat_abs" />
+        <item itemvalue="Python.plot_individual_sed" />
+        <item itemvalue="Python.prepare_cigale_fit (2)" />
+        <item itemvalue="Python.prepare_cigale_fit (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -75,5 +195,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
