@@ -8,7 +8,6 @@ from visualization_helper import VisualizeHelper as vh
 
 
 
-
 folder_hst = '/home/benutzer/data/PHANGS-HST/ngc7496/ngc7496_mosaics_01sep2020/'
 folder_jwst = '/home/benutzer/data/PHANGS-JWST/ngc7496/'
 
@@ -119,21 +118,21 @@ for cluster_index in cluster_index_list:
     for channel in miri_channel_list:
         position_list.append(flux_dict['position_%s' % channel])
 
-    # full_sed_fig = vh.plot_cigale_sed_results(cigale_flux_file_name='flux_file.dat',
-    #                                  hdu_best_model_file_name=best_model_file,
-    #                                  flux_fitted_model_file_name='out/results.fits',
-    #                                  hst_file_name_list=hst_file_name_list, nircam_file_name_list=nircam_file_name_list,
-    #                                  miri_file_name_list=miri_file_name_list,
-    #                                  cutout_size=(2, 2), cutout_pos=cutout_pos, cutout_pos_list=position_list,
-    #                                  hdu_number_hst=0, hdu_number_nircam='SCI', hdu_number_miri=0,
-    #                                  filter_list=None, cigale_flux_file_col_name_ord=None, index_cigale_table=list_index,
-    #                                  cigale_filt_names=None, cigale_logo_file_name=None, circle_rad=ap_list,
-    #                                  filter_colors=None)
-    #
-    # full_sed_fig.savefig('plot_output/sed_%i' % cluster_index)
-    # plt.close()
-    # plt.clf()
-    # plt.cla()
+    full_sed_fig = vh.plot_cigale_sed_results(cigale_flux_file_name='flux_file.dat',
+                                     hdu_best_model_file_name=best_model_file,
+                                     flux_fitted_model_file_name='out/results.fits',
+                                     hst_file_name_list=hst_file_name_list, nircam_file_name_list=nircam_file_name_list,
+                                     miri_file_name_list=miri_file_name_list,
+                                     cutout_size=(2, 2), cutout_pos=cutout_pos, cutout_pos_list=position_list,
+                                     hdu_number_hst=0, hdu_number_nircam='SCI', hdu_number_miri=0,
+                                     filter_list=None, cigale_flux_file_col_name_ord=None, index_cigale_table=list_index,
+                                     cigale_filt_names=None, cigale_logo_file_name=None, circle_rad=ap_list,
+                                     filter_colors=None)
+
+    full_sed_fig.savefig('plot_output/sed_%i' % cluster_index)
+    plt.close()
+    plt.clf()
+    plt.cla()
 
     panel_sed_fig = vh.plot_cigale_sed_panel(cigale_flux_file_name='flux_file.dat',
                                      hdu_best_model_file_name=best_model_file,

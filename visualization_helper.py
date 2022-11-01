@@ -760,7 +760,7 @@ class VisualizeHelper:
     @staticmethod
     def get_50p_aperture(instrument=None):
         # hst taken from : https://www.stsci.edu/hst/instrumentation/wfc3/data-analysis/photometric-calibration/uvis-encircled-energy
-        ap_50p_f275w = 0.066 # 0.110
+        ap_50p_f275w = 0.110
         ap_50p_f336w = 0.066
         ap_50p_f438w = 0.065
         ap_50p_f555w = 0.068

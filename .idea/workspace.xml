@@ -2,36 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1486b6f5-67ab-47cc-bd48-5b6ed47e002f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/phangs_visual_tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phangs_visual_tools.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/flux_file_example.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/flux_file_many_lines.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_F275W_UVIS_CHIP2_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_F336W_UVIS_CHIP2_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_F438W_UVIS_CHIP2_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_F555W_UVIS_CHIP2_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_F814W_UVIS_CHIP2_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_SFH.fits" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_attenuation.E_BV_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_best_model.fits" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.miri.F1000W_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.miri.F1130W_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.miri.F2100W_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.miri.F770W_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.nircam.F200W_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.nircam.F300M_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.nircam.F335M_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_jwst.nircam.F360M_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_sfh.age_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/emb_clu_stellar.metallicity_chi2-block-0.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/observations.fits" beforeDir="false" afterPath="$PROJECT_DIR$/out/observations.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/observations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/observations.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/pcigale.ini" beforeDir="false" afterPath="$PROJECT_DIR$/out/pcigale.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/results.fits" beforeDir="false" afterPath="$PROJECT_DIR$/out/results.fits" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pcigale.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pcigale.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plot_output/sed_total.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plot_output/sed_total.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plot_sed_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cigale_young_cluster_fit/out/53_SFH.fits" beforeDir="false" afterPath="$PROJECT_DIR$/cigale_young_cluster_fit/out/53_SFH.fits" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cigale_young_cluster_fit/out/53_best_model.fits" beforeDir="false" afterPath="$PROJECT_DIR$/cigale_young_cluster_fit/out/53_best_model.fits" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cigale_young_cluster_fit/out/pcigale.ini" beforeDir="false" afterPath="$PROJECT_DIR$/cigale_young_cluster_fit/out/pcigale.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cigale_young_cluster_fit/out/results.fits" beforeDir="false" afterPath="$PROJECT_DIR$/cigale_young_cluster_fit/out/results.fits" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cigale_young_cluster_fit/out/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cigale_young_cluster_fit/out/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cigale_young_cluster_fit/pcigale.ini" beforeDir="false" afterPath="$PROJECT_DIR$/cigale_young_cluster_fit/pcigale.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cigale_young_cluster_fit/plot_individual_sed.py" beforeDir="false" afterPath="$PROJECT_DIR$/cigale_young_cluster_fit/plot_individual_sed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visualization_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualization_helper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +33,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/benutzer/Documents/projects/jwst_embed_cluster",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "/home/benutzer/Documents/projects/galmer_tools",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
   <component name="RunManager" selected="Python.plot_individual_sed (1)">
