@@ -8,7 +8,7 @@ from visualization_helper import VisualizeHelper as vh
 
 wave_list = vh.get_wavelength_list_hst_nircam_miri()
 
-cluster_list = np.genfromtxt('data/candidates_embd_clus_v2p1.txt', dtype=object)
+cluster_list = np.genfromtxt('data/candidates_low_ci_.txt', dtype=object)
 names = cluster_list[0]
 cluster_list[cluster_list == b'""'] = b'nan'
 data = np.array(cluster_list[1:], dtype=float)
@@ -22,7 +22,7 @@ upper_lim_f438w = []
 upper_lim_f555w = []
 upper_lim_f814w = []
 for cluster_index in range(len(ra)):
-    result_dict = np.load('data_output/result_dict_%i.npy' % cluster_index, allow_pickle=True).item()
+    result_dict = np.load('data_output/result_dict_%i_new.npy' % cluster_index, allow_pickle=True).item()
     flux_list = result_dict['flux_%i' % cluster_index]
     flux_err_list = result_dict['flux_err_%i' % cluster_index]
     upper_limit = result_dict['upper_limit_%i' % cluster_index].T[0]
@@ -73,25 +73,25 @@ fontsize = 19
 ax = figure.add_axes([0.105, 0.1, 0.89, 0.895])
 
 
-for cluster_index in [4,7,8,36,37,43,48,50,53,59,62,63]:
-    if cluster_index in [4,7,36]:
+for cluster_index in range(len(ra)):
+    if cluster_index in [6]:
         linestyle = '--'
         color = 'g'
     else:
         linestyle = '-'
         color = 'r'
 
-    result_dict = np.load('data_output/result_dict_%i.npy' % cluster_index, allow_pickle=True).item()
+    result_dict = np.load('data_output/result_dict_%i_new.npy' % cluster_index, allow_pickle=True).item()
     flux_list = result_dict['flux_%i' % cluster_index]
     flux_err_list = result_dict['flux_err_%i' % cluster_index]
     upper_limit = result_dict['upper_limit_%i' % cluster_index].T[0]
 
-    if cluster_index not in [4, 7, 36]:
-        ax.scatter(wave_list[5:] * 1e-3, flux_list[5:], color='k')
-        ax.plot(wave_list[5:] * 1e-3, flux_list[5:], linestyle=linestyle, color='k')
-    else:
-        ax.scatter(wave_list * 1e-3, flux_list, color='k')
-        ax.plot(wave_list * 1e-3, flux_list, linestyle=linestyle, color='k')
+    # if cluster_index not in [6]:
+    ax.scatter(wave_list[5:] * 1e-3, flux_list[5:])#, color='k')
+    ax.plot(wave_list[5:] * 1e-3, flux_list[5:], linestyle=linestyle)#, color='k')
+    # else:
+    #     ax.scatter(wave_list * 1e-3, flux_list)#, color='k')
+    #     ax.plot(wave_list * 1e-3, flux_list, linestyle=linestyle)#, color='k')
 
 
 upper_upper = [np.max(upper_lim_f275w), np.max(upper_lim_f336w), np.max(upper_lim_f438w), np.max(upper_lim_f555w), np.max(upper_lim_f814w)]
@@ -123,7 +123,7 @@ ax.set_ylabel(r'F$_{\nu}$ [mJy]', labelpad=-3.0, fontsize=fontsize)
 ax.tick_params(axis='both', which='both', width=2, direction='in', color='k', labelsize=fontsize)
 
 # plt.show()
-plt.savefig('plot_output/sed_comparison_black_test.png')
-plt.savefig('plot_output/sed_comparison_black_test.pdf')
+plt.savefig('plot_output/sed_comparison_new.png')
+plt.savefig('plot_output/sed_comparison_new.pdf')
 exit()
 

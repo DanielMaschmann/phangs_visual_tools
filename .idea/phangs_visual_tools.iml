@@ -2,7 +2,12 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <content url="file://$USER_HOME$/software/python_packages/cigale-ssp2" />
+    <content url="file://$USER_HOME$/software/python_packages/cigale-ssp2">
+      <sourceFolder url="file://$USER_HOME$/software/python_packages/cigale-ssp2/.eggs/Pygments-2.13.0-py3.10.egg" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/software/python_packages/cigale-ssp2/.eggs/commonmark-0.9.1-py3.10.egg" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/software/python_packages/cigale-ssp2/.eggs/configobj-5.0.6-py3.10.egg" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/software/python_packages/cigale-ssp2/.eggs/rich-12.5.1-py3.10.egg" isTestSource="false" />
+    </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (cigale_ssp)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
